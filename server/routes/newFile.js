@@ -1,3 +1,3 @@
 const func=()=>{
-return 8
+return {"name":"Chani"}
 }
