@@ -7,7 +7,7 @@ const corsOptions=require('./config/corsOptions')
 const connectToDB=require('./config/dbConn')
 const mongoose =require('mongoose')
 
-
+//this message is to try do commit in github
 connectToDB()
 app.use(cors(corsOptions))
 app.use(express.json())

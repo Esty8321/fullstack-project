@@ -2,8 +2,6 @@ const express=require('express')
 const router=express.Router()
 const Article=require('../models/Article')//the schema which want
 
-
-
 router.post('/',async(req,res)=>{//post use to create new item
    const {name}=req.body
    if(!name)
