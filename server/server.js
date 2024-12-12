@@ -22,3 +22,4 @@ mongoose.connection.once('open',()=>{
 app.listen(PORT,()=>{console.log(`server running in port ${PORT}`)})})
 
 mongoose.connection.on('error',(err)=>{console.log('didnt succeed to connect for the database')})
+//message for git after finish with the server file
